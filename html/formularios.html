@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Formularios</title>
+</head>
+<body>
+    
+    <form action="recibe.php">
+
+        <!--Se autoborra el contenido para que el usuario escriba-->
+        <input type="text" placeholder="Nombre de Usuario:" maxlength="10" size="30" required name="nombre">
+            <br>
+        <input type="email" placeholder="Correo:" size="30" required name="correo">
+            <br>
+        <textarea name="mensaje" id="mensaje" placeholder="Mensaje"></textarea>
+            <br>
+        <!--Con el atributo 'for' se puede enlazar un item con otro :)-->
+        <label for="pais">Pais:</label>
+        <select name="pais" id="pais">
+            <option value="mexico">Mexico</option>
+            <option value="colombia">Colombia</option>
+            <option value="argentina">Argentina</option>
+        </select>
+            <br>
+        <input type="radio" name="genero" value="hombre" id="hombre"><label for="hombre">Hombre</label>
+        <input type="radio" name="genero" value="mujer" id="mujer"><label for="mujer">Mujer</label>
+            <br>
+        <input type="checkbox" name="terminos" id="terminos"><label for="terminos">Terminos y Condiciones</label>
+            <br>
+            <br>
+        <input type="submit" value="Enviar">
+
+    </form>
+
+</body>
+</html>

@@ -64,6 +64,7 @@ header nav ul li a:hover {
 
 .main .imagen img {
     width: 100%;
+    height: 500px;
     vertical-align: top;
 }
 
@@ -135,6 +136,10 @@ footer {
     .main {
         width: 100%;
     }
+
+    .main .imagen img {
+        height: 100%;
+    }    
 
     aside {
         width: 100%;

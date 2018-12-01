@@ -1,0 +1,9 @@
+@font-face {
+    font-family: 'Indie Flower', cursive;
+    src: url('fonts/IndieFlower.ttf');
+}
+
+body {
+    /* font-family: 'Indie Flower', cursive; */
+    font-family: 'Oswald', sans-serif;
+}

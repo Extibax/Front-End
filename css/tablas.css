@@ -19,6 +19,11 @@ th {
     color: #fff;
 }
 
+td::selection {
+    background: #000;
+    color: #ffF;
+}
+
 tr:hover {
     background: #e5e5e5;
 }

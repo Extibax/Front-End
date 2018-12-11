@@ -40,4 +40,16 @@ body {
     padding: 20px;
     font-size: 40px;
     color: #FFf;
+    /* Orden del item */
+    /* order: 1; */
+    /* Siver para hacer que el elemento crezca lo necesario para
+     ocupar el espacio sobrante */
+    /* 
+    flex-grow: 1;
+    flex-shrink: 1;
+    flex-basis: 200px;
+     */
+     /* Las 3 propiedades de arriba resumido en esta linea */
+    flex: 1 1 auto;
+
 }

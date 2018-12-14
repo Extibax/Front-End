@@ -149,7 +149,7 @@ footer .redes-sociales a:hover {
         width: 100%;
         background: rgba(255, 255, 255, 0.3);
         text-align: center;
-        padding: px;
+        padding: 10px;
     }
 
     header .menu a {
@@ -179,6 +179,12 @@ footer .redes-sociales a:hover {
 @media screen and (max-width: 400px) {
     header {
         flex-direction: column;
+    }
+
+    header .menu {
+        justify-content: center;
+        padding: 5px;;
+        display: flex;
     }
 
     header a {

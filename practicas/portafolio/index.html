@@ -1,16 +1,154 @@
 <!DOCTYPE html>
 <html lang="es">
-
+//TODO: Analizar mas en profundidad el codigo
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portafolio - Juan Bedoya</title>
+    <title>Web Portfolio - Juan Bedoya</title>
+    <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.1/css/all.css" integrity="sha384-gfdkjb5BdAXd+lj+gudLWI+BXq4IuLW5IT+brZEZsLFm++aCMlF1V92rMkPaX4PP"
+        crossorigin="anonymous">
     <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="css/style.css">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
 </head>
 
 <body>
-    <h1>Juan Bedoya - Extibax</h1>
+    <header>
+        <div class="container">
+            <nav class="menu">
+                <a href="#">About me</a>
+                <a href="#">Works</a>
+                <a href="#">Contact</a>
+            </nav>
+            <div class="container-text">
+                <div class="text">
+                    <h1 class="name">Juan Bedoya</h1>
+                    <h2 class="profesion">Back-End Web Development</h2>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <section class="main">
+        <section class="about-me">
+            <div class="container">
+                <div class="photo">
+                    <img src="img/PhotoJuanBedoya.jpg" width="115" height="115" alt="Juan Bedoya">
+                </div>
+                <div class="text">
+                    <h3 class="title">About me</h3>
+                    <p>
+                        This is <span class="bold">Photoshop's</span> version of Lorem ipsum dolor sit amet consectetur
+                        adipisicing elit. Alias,
+                        excepturi. <span class="bold">Lorem</span> ipsum dolor sit amet.
+                    </p>
+                </div>
+            </div>
+
+            <section class="works">
+                <div class="container">
+                    <h3 class="title">Works</h3>
+                    <div class="container-works">
+                        <div class="work">
+                            <div class="thumb">
+                                <img src="img/1.png" alt="Lorem Ipsump">
+                            </div>
+                            <div class="description">
+                                <p class="name">Lorem Ipsum</p>
+                                <p class="category">HTML - CSS - PHP</p>
+                            </div>
+                        </div>
+                        <div class="work">
+                            <div class="thumb">
+                                <img src="img/2.png" alt="Lorem Ipsump">
+                            </div>
+                            <div class="description">
+                                <p class="name">Lorem Ipsum</p>
+                                <p class="category">HTML - CSS - PHP</p>
+                            </div>
+                        </div>
+                        <div class="work">
+                            <div class="thumb">
+                                <img src="img/3.png" alt="Lorem Ipsump">
+                            </div>
+                            <div class="description">
+                                <p class="name">Lorem Ipsum</p>
+                                <p class="category">HTML - CSS - PHP</p>
+                            </div>
+                        </div>
+                        <div class="work">
+                            <div class="thumb">
+                                <img src="img/4.png" alt="Lorem Ipsump">
+                            </div>
+                            <div class="description">
+                                <p class="name">Lorem Ipsum</p>
+                                <p class="category">HTML - CSS - PHP</p>
+                            </div>
+                        </div>
+                        <div class="work">
+                            <div class="thumb">
+                                <img src="img/5.png" alt="Lorem Ipsump">
+                            </div>
+                            <div class="description">
+                                <p class="name">Lorem Ipsum</p>
+                                <p class="category">HTML - CSS - PHP</p>
+                            </div>
+                        </div>
+                        <div class="work">
+                            <div class="thumb">
+                                <img src="img/6.png" alt="Lorem Ipsump">
+                            </div>
+                            <div class="description">
+                                <p class="name">Lorem Ipsum</p>
+                                <p class="category">HTML - CSS - PHP</p>
+                            </div>
+                        </div>
+                        <div class="work">
+                            <div class="thumb">
+                                <img src="img/1.png" alt="Lorem Ipsump">
+                            </div>
+                            <div class="description">
+                                <p class="name">Lorem Ipsum</p>
+                                <p class="category">HTML - CSS - PHP</p>
+                            </div>
+                        </div>
+                        <div class="work">
+                            <div class="thumb">
+                                <img src="img/2.png" alt="Lorem Ipsump">
+                            </div>
+                            <div class="description">
+                                <p class="name">Lorem Ipsum</p>
+                                <p class="category">HTML - CSS - PHP</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </section>
+    </section>
+
+    <footer>
+        <section class="contact">
+            <div class="container">
+                <h3 class="title">Contact</h3>
+                <form class="form-contact" action="">
+                    <input type="text" placeholder="Name" name="name" required>
+                    <input type="email" placeholder="Correo" name="correo" required>
+                    <textarea name="message" placeholder="Message:"></textarea>
+                    <input class="button" type="submit" value="Send">
+                </form>
+            </div>
+        </section>
+
+        <section class="social-media">
+            <div class="container">
+                <a href="https://www.linkedin.com/in/extibax/" class="linkedin" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+                <a href="https://github.com/Extibax" class="github" target="_blank"><i class="fab fa-github"></i></a>
+                <a href="https://twitter.com/extibax" class="twitter" target="_blank"><i class="fab fa-twitter"></i></a>
+            </div>
+        </section>
+    </footer>
 </body>
 
 </html>

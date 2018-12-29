@@ -46,3 +46,7 @@ rm -f ./.git/index.lock //sirve para eliminar el archivo index.lock que no permi
 git pull origin master --allow-unrelated-histories
 
 git checkout -b new_branch old_branch
+
+You could also disable use of the Git credential cache using 
+"git config --global --unset credential.helper". Then reset this, and you would continue to have the cached credentials available for other repositories (if any). You may also need to do 
+"git config --system --unset credential"(Use in CMD with Permisos de superusuario).helper if this has been set in the system configuration file (for example, Git for Windows 2).

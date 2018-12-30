@@ -27,22 +27,24 @@ header .logo a {
 }
 
 header .menu {
-    padding: 0 20px;
+    padding: 15px 20px;
 }
 
 header .menu ul {
     list-style-type: none;
-    overflow: hidden;
+    display: flex;
+    flex-direction: row;
 }
 
 header .menu ul li {
-    float: left;
+    background: #000
 }
 
 header .menu ul li a {
-    display: block;
     color: #000;
-    padding: 8px 16px;
+    display: block;
+    height: 100%;
+    background: #FCFFF7;
+    padding-left: 15px;
     text-decoration: none;
-    text-align: center;
 }

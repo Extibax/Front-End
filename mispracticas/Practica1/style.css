@@ -1,50 +1,10 @@
-* {
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
-}
+
 
 body {
-    font-family: 'Montserrat', sans-serif;
-    background-color: #FCFFF7;
-    color: #000;
+    background: #FFF;
 }
 
 header {
-    background: #21A0A0;
+    background: #24292E;
     display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-
-header .logo {
-    padding: 15px 20px;
-}
-
-header .logo a {
-    text-decoration: none;
-    color: #000;
-}
-
-header .menu {
-    padding: 15px 20px;
-}
-
-header .menu ul {
-    list-style-type: none;
-    display: flex;
-    flex-direction: row;
-}
-
-header .menu ul li {
-    background: #000
-}
-
-header .menu ul li a {
-    color: #000;
-    display: block;
-    height: 100%;
-    background: #FCFFF7;
-    padding-left: 15px;
-    text-decoration: none;
 }

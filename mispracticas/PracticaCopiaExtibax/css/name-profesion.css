@@ -41,4 +41,6 @@
 
 .name-profession .containerText .text .profession {
     color: #FFF;
+    font-size: 25px;
+    line-height: 25px;
 }

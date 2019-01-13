@@ -1,0 +1,33 @@
+.name-profession {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.name-profession .container-text {
+    margin: 50px 0;
+}
+
+.name-profession .container-text .text {
+    border: 2px solid rgba(255, 255, 255, .5);
+    padding: 20px 60px;
+}
+
+.name-profession .container-text .text .name, 
+.name-profession .container-text .text .profession {
+    color: #FFF;
+    font-weight: 300;
+    text-align: center;
+}
+
+.name-profession .container-text .text .name {
+    font-size: 50px;
+    line-height: 50px;
+    margin-bottom: 10px;
+}
+
+.name-profession .container-text .text .profession {
+    font-size: 25px;
+    line-height: 25px;
+}

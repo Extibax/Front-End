@@ -1,25 +1,26 @@
 @import url('header.css');
 @import url('name-profession.css');
+@import url('main.css');
 
 * {
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
 }
 
-body {
-    font-family: Montserrat, sans-serif;
-    background: #F2F2F2 url('../img/Laptop\ Office\ Desk.jpg');
-    background-attachment: fixed;
-    background-size: cover;
-    background-repeat: no-repeat;
+ body {
+  font-family: Montserrat, sans-serif;
+  background: #000 url('../img/Laptop Office Desk.jpg');
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .container {
-    margin: 0 auto;
-    width: 90%;
-    max-width: 1000px;
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
+  margin: 0 auto;
+  width: 90%;
+  max-width: 1000px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
 }

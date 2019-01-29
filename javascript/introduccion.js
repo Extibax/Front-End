@@ -1,0 +1,1 @@
+alert('Hola mundo, Desde un archivo Javascript');

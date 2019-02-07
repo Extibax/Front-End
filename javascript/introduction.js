@@ -1,1 +1,1 @@
-alert('Hola mundo, Desde un archivo Javascript');
+alert('Hello World, From a Javascript file');

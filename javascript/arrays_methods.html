@@ -14,20 +14,36 @@
         //Method Length
         document.write(friends.length);
 
-        //Method Join
+        document.write('<br>');
 
+        //Method Join
+        document.write(friends.join('**'));
 
         //Method Pop & Push
-
+        friends.pop(); //Remove the last value of the array
+        friends.push('Felipe'); //Add a new value at the end of the array
 
         //Method Shift & Unshift
+        friends.shift(); //Remove the first value of the array
+        friends.unshift('Andres'); //Add a new value at the start of the array
 
+        document.write('<br>');
 
         //Method Concat
+        var friends_2 = ['Felix', 'Oscar'];
+        all_my_friends = friends.concat(friends_2); //Contact two o more values 
+        document.write(all_my_friends.join(' '));
 
+        document.write('<br>');
 
         //Method Sort & Reverse
+        friends.sort(); //Order the values alphabetically
+        document.write(friends.join(' '));
 
+        document.write('<br>');
+
+        friends.reverse(); //Order the values to the contrary 
+        document.write(friends.join(' '));
 
 
     </script>

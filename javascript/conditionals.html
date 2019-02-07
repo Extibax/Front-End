@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Conditionals</title>
+</head>
+<body>
+    <script>
+        
+        //Age
+        var age = 18;
+
+        if (age >= 18) 
+        {
+            document.write('Youre of age')    
+        }
+        else
+        {
+            document.write('Youre under age');
+        }
+
+        document.write('<br>');
+        document.write('<br>');
+
+        //Countries
+        var country = 'Colombia';
+
+        if (country == 'Colombia') 
+        {
+            document.write('Youre Colombian')
+        }
+        else if (country == 'Spain')
+        {
+            document.write('Youre Spanish');
+        }
+        else
+        {
+            document.write('We dont know where are you from');
+        }
+
+        switch(country)
+        {
+            case 'Colombia':
+                document.write('Youre Colombian');
+                break;
+
+            case 'Spain':
+                document.write('Youre Spanish');
+                break;
+
+            case 'Mexico':
+                document.write('Youre Mexican');
+                break;
+            
+            default:
+                document.write('We dont know where are you from');
+                break;
+        }
+
+    </script>
+</body>
+</html>

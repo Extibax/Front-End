@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Methods & Properties to Strings</title>
+</head>
+<body>
+    <script>
+        var name = 'Juan Bedoya';
+        var numberCharacters = name.length;
+        console.log(name + ' have ' + numberCharacters + ' characters ');
+
+        var lastName = name.substring(5, 11);
+        console.log(lastName);
+
+        var lastName = name.substr(5, 2);
+        console.log(lastName);
+
+        var newName = name.replace('Bedoya', 'Piedrahita');
+        console.log(newName);
+
+        name = name.toUpperCase();
+        console.log(name);
+    </script>
+</body>
+</html>

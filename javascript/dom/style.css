@@ -1,0 +1,22 @@
+body {
+    background: #F2F2F2;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container {
+    width: 400px;
+    padding: 20px;
+}
+
+.box {
+    padding: 20px 10px;
+    text-align: center;
+    background: #226FC1;
+    /* background: #000; */
+    font-size: 24px;
+    color: #FFF;
+}
+
+.orange {
+    background: #F9A03F;
+}

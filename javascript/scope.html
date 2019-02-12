@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Scope of Javascript</title>
+</head>
+<body>
+    <script>
+
+        /* Our variables can be of 2 types: Global & Local  */
+
+        /* Local */
+        function greeting() {
+            var text = 'Hello World';
+            console.log(text);
+        }
+        
+        function greeting() {
+            var text = 'Hello World';
+
+            function message() {
+                console.log(text);
+            }
+
+            message();
+        }
+
+        greeting();
+
+        /* Global */
+        function globalGreeting() {
+            /* Without 'var' */ message = 'Hello World';
+        }
+
+        globalGreeting();
+
+        console.log(message);
+
+        /* Protect our variables of third-party  */
+
+        (function(){
+            var message = 'Hello World';
+        }())
+        
+    </script>
+</body>
+</html>

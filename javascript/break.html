@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Break & Continue</title>
+</head>
+<body>
+    
+    <script>
+        var friends = ['Alejando', 'Cesar', 'Manuel', 'Luis'];
+
+        for (friend in friends) {
+
+            if ( friends[friend] == friends[0]) {
+                continue;
+            }
+
+            if (friends[friend] == 'Luis') {
+                break;
+            }
+
+            document.write(friends[friend] + '<br>');
+        }
+
+        document.write("End of Cycle");
+    </script>
+
+</body>
+</html>

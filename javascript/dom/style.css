@@ -12,11 +12,11 @@ body {
     padding: 20px 10px;
     text-align: center;
     background: #226FC1;
-    /* background: #000; */
     font-size: 24px;
     color: #FFF;
 }
 
 .orange {
     background: #F9A03F;
+    color: #000;
 }

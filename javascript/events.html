@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+
+        <title>Events</title>
+    </head>
+    <body>
+        <button id="btn-box">Create box</button>
+        <section id="container">
+
+        </section>
+
+        <script>
+            function createBox() {
+                var box = document.createElement('div');
+                var content = document.createTextNode('Hi! Im a new box!');
+                box.appendChild(content);
+                var father = document.getElementById('container');
+                father.appendChild(box);
+            }
+
+            var btnBox = document.getElementById('btn-box');
+            btnBox.addEventListener('click', createBox);
+        </script>
+    </body>
+</html>

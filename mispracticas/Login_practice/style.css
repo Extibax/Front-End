@@ -29,13 +29,26 @@ header nav {
     align-items: center;
 }
 
-/* header nav .logotype {
-    
+header nav .logotype {
+}
+
+header nav .logo {
+    animation: extibax-logo-spin infinite 20s linear;
+    border-radius: 50%;
+}
+
+@keyframes extibax-logo-spin {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
 }
 
 header nav .menu {
 
-} */
+}
 
 header nav .logotype img {
     width: 50px;

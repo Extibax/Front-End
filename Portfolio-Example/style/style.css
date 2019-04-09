@@ -144,6 +144,7 @@ li {
 .nav-link:hover,
 .nav-link:focus {
     background: linear-gradient(to top, #FFE838, #FD57BF);
+    background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
@@ -342,7 +343,7 @@ li {
     margin-bottom: 0;
 }
 
-.profile-img {
+.portfolio-img {
     width: 50rem;
     flex: 1;
 }
@@ -353,7 +354,7 @@ li {
     margin: 1rem 0;
 }
 
-.portfolio-description h6 {
+.portfolio-description h1 {
     font-size: 1.5rem;
     text-transform: uppercase;
     font-weight: 300;
@@ -625,7 +626,7 @@ input[type="submit"]:hover {
     }
 
     .profile-img {
-        margin: 0 0rem 7rem 0rem;
+        margin: 0 0 7rem 0;
         padding: 0 7rem;
     }
 
